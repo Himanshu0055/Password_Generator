@@ -24,3 +24,8 @@ This application helps users create strong, random passwords with customizable o
 | 60–79          | Medium       | Yellow    |
 | 80–99          | Strong       | Light Green |
 | ≥ 100          | Very Strong  | Bright Green |
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
