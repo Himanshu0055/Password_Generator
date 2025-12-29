@@ -107,8 +107,7 @@ class PasswordApp(ctk.CTk):
         ]:
             ctk.CTkCheckBox(card2, text=text,
                             variable=var,
-                            command=self.update_strength).pack(anchor="w", padx=20, pady=5)
-
+                           command=self.update_strength).pack(anchor="w", padx=20, pady=5)
         # ===== Generate =====
         ctk.CTkButton(self, text="Generate Password",
                       height=45,
@@ -171,6 +170,6 @@ class PasswordApp(ctk.CTk):
         self.clipboard_append(self.password.get())
         self.strength_label.configure(text="Copied ✔", text_color="#33ff99")
 
-
 if __name__ == "__main__":
+
     PasswordApp().mainloop()
