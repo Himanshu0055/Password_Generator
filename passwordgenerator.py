@@ -171,5 +171,4 @@ class PasswordApp(ctk.CTk):
         self.strength_label.configure(text="Copied ✔", text_color="#33ff99")
 
 if __name__ == "__main__":
-
     PasswordApp().mainloop()
